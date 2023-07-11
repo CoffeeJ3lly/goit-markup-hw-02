@@ -3,85 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 1</title>
+    <title>Homework 2</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="header">
       <!-- Navigation Bar -->
-      <nav>
-        <a href="#">WebStudio</a>
+      <nav class="header-nav">
+        <a class="header-logo link" href="./index.html">
+          <span class="header-logo-web">Web</span>
+          <span class="header-logo-studio">Studio</span>
+        </a>
 
-        <ul>
-          <li>
-            <a href="#">Studio</a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a href="#">Portfolio</a>
+          <li class="header-item">
+            <a class="header-link link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
-            <a href="#">Contacts</a>
+          <li class="header-item">
+            <a class="header-link link" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
+      <address class="header-address">
+        <a class="header-address-link link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+
+        <a class="header-address-link link" href="tel:+110001111111"
+          >+11 (000) 111-11-11</a
+        >
+      </address>
     </header>
 
     <!-- MAIN -->
-    <main>
-      <!-- Section 1 -->
-      <section>
-        <h1>
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">
           Effective Solutions<br />
           for Your Business
         </h1>
 
-        <button type="button">Order Service</button>
+        <button class="hero-button button" type="button">Order Service</button>
       </section>
 
-      <!-- SECTION 2 -->
-      <section>
-        <div>
-          <ul>
-            <li>
-              <h3>Strategy</h3>
+      <!-- SECTION 1 -->
+      <section class="section-1">
+        <div class="section-1-div">
+          <ul class="section-1-list list">
+            <li class="section-1-item">
+              <h3 class="section-1-list-title list-title">Strategy</h3>
 
-              <p>
+              <p class="section-1-list-text text">
                 Our goal is to identify the business <br />problem to walk away
                 with the<br />
                 perfect and creative solution.
               </p>
             </li>
-            <li>
-              <h3>Punctuality</h3>
+            <li class="section-1-item">
+              <h3 class="section-1-list-title list-title">Punctuality</h3>
 
-              <p>
+              <p class="section-1-list-text text">
                 Bring the key message to the<br />
                 brand's audience for the best price<br />
                 within the shortest possible time.
               </p>
             </li>
-            <li>
-              <h3>Diligence</h3>
+            <li class="section-1-item">
+              <h3 class="section-1-list-title list-title">Diligence</h3>
 
-              <p>
+              <p class="section-1-list-text text">
                 Research and confirm brands that<br />
                 present the strongest digital growth<br />
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
-              <h3>Technologies</h3>
+            <li class="section-1-item">
+              <h3 class="section-1-list-title list-title">Technologies</h3>
 
-              <p>
+              <p class="section-1-list-text text">
                 Design practice focused on digital<br />
                 experiences. We bring forth a deep<br />
                 passion for problem-solving.
@@ -91,33 +104,33 @@
         </div>
       </section>
 
-      <!-- SECTION 3 -->
-      <section>
-        <div>
-          <h2>What are we doing</h2>
+      <!-- SECTION 2 -->
+      <section class="section-2">
+        <div class="section-2-div">
+          <h2 class="section-2-title section-title">What are we doing</h2>
 
-          <ul>
-            <li>
+          <ul class="section-2-list list">
+            <li class="section-2-item">
               <img
-                src="images/section-3-img-1.jpg"
+                src="images/section-2-img-1.jpg"
                 alt="monitor image"
                 width="370"
                 height="294"
               />
             </li>
 
-            <li>
+            <li class="section-2-item">
               <img
-                src="images/section-3-img-2.jpg"
+                src="images/section-2-img-2.jpg"
                 alt="phone image"
                 width="370"
                 height="294"
               />
             </li>
 
-            <li>
+            <li class="section-2-item">
               <img
-                src="images/section-3-img-3.jpg"
+                src="images/section-2-img-3.jpg"
                 alt="cellphone and laptop image"
                 width="370"
                 height="294"
@@ -127,62 +140,62 @@
         </div>
       </section>
 
-      <!-- SECTION 4 -->
-      <section>
-        <div>
-          <h2>Our Team</h2>
+      <!-- SECTION 3 -->
+      <section class="section-3">
+        <div class="section-3-div">
+          <h2 class="section-3-title section-title">Our Team</h2>
 
-          <ul>
-            <li>
+          <ul class="section-3-list list">
+            <li class="section-3-item">
               <img
-                src="images/section-4-img-1.jpg"
+                src="images/section-3-img-1.jpg"
                 alt="Mark Guerrero"
                 width="270"
                 height="260"
               />
 
-              <h3>Mark Guerrero</h3>
+              <h3 class="section-3-list-title list-title">Mark Guerrero</h3>
 
-              <p>Product Designer</p>
+              <p class="section-3-list-text text">Product Designer</p>
             </li>
 
-            <li>
+            <li class="section-3-item">
               <img
-                src="images/section-4-img-2.jpg"
+                src="images/section-3-img-2.jpg"
                 alt="Tom Ford"
                 width="270"
                 height="260"
               />
 
-              <h3>Tom Ford</h3>
+              <h3 class="section-3-list-title list-title">Tom Ford</h3>
 
-              <p>Frontend Developer</p>
+              <p class="section-3-list-text text">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="section-3-item">
               <img
-                src="images/section-4-img-3.jpg"
+                src="images/section-3-img-3.jpg"
                 alt="Camila Garcia"
                 width="270"
                 height="260"
               />
 
-              <h3>Camila Garcia</h3>
+              <h3 class="section-3-list-title list-title">Camila Garcia</h3>
 
-              <p>Marketing</p>
+              <p class="section-3-list-text text">Marketing</p>
             </li>
 
-            <li>
+            <li class="section-3-item">
               <img
-                src="images/section-4-img-4.jpg"
+                src="images/section-3-img-4.jpg"
                 alt="Daniel Wilson"
                 width="270"
                 height="260"
               />
 
-              <h3>Daniel Wilson</h3>
+              <h3 class="section-3-list-title list-title">Daniel Wilson</h3>
 
-              <p>UI Designer</p>
+              <p class="section-3-list-text text">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -190,11 +203,14 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-      <div>
-        <a href="#">WebStudio</a>
+    <footer class="footer">
+      <div class="footer-div">
+        <a class="footer-logo link" href="./index.html">
+          <span class="footer-logo-web">WEB</span>
+          <span class="footer-logo-studio">STUDIO</span>
+        </a>
 
-        <p>
+        <p class="footer-text text">
           Increase the flow of customers and<br />
           sales for your business with digital<br />
           marketing & growth solutions.
