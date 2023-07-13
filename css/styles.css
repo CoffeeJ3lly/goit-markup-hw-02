@@ -71,6 +71,10 @@ body {
   font-weight: 400;
 }
 
+.contacts-link {
+  text-decoration: none;
+}
+
 .bg-hero {
   background-color: var(--navyblue);
 }
